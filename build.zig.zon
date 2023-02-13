@@ -3,8 +3,8 @@
     .version = "0.0.0",
     .dependencies = .{
         .@"mach-glfw" = .{
-            .url = "https://github.com/InKryption/mach-glfw/archive/7d33eceb9d85688d141041c0c7c524490da19f03.tar.gz",
-            .hash = "12207b87fbdf473dce36498fda29aeb0afd1f7bff383ee7197fb855be88b0791396c",
+            .url = "https://github.com/InKryption/mach-glfw/archive/8038e8df43045327e6a03348f1e1b5439439ab44.tar.gz",
+            .hash = "1220eaf799c7afab6e236c9c0163823a70e02c74f276ebb7249daeb7a18cbf813389",
         },
     },
 }
