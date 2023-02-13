@@ -17,7 +17,7 @@ pub fn build(b: *std.Build) void {
         .target = target,
     });
     exe.addModule("mach-glfw", mach_glfw_dep.module("mach-glfw"));
-    const libglfw = mach_glfw_dep.artifact("glfw-static");
+    const libglfw = mach_glfw_dep.artifact("glfw-shared");
     exe.linkLibrary(libglfw);
     exe.installLibraryHeaders(libglfw);
 
